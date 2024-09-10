@@ -7,7 +7,7 @@ These are all of my amazing blog posts, enjoy!
 <ul>
   {% for post in collections.blog | reverse %}
   <li>
-    <a href="">{{ post.data.title }}</a>
+    <a href="{{ post.data.page.fileSlug }}">{{ post.data.title }}</a>
   </li>
   {% endfor %}
 </ul>
