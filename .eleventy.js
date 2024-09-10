@@ -1,9 +1,15 @@
 module.exports = function (eleventyConfig) {
-    return {
-      dir: {
-        input: "src",
-        output: "public",
-        includes: "_includes",
-      },
-    };
+  eleventyConfig.addPassthroughCopy("./src/css");
+  eleventyConfig.addPassthroughCopy("./src/img");
+  eleventyConfig.addPassthroughCopy("./src/fonts");
+  eleventyConfig.addPassthroughCopy("./src/js");
+
+  return {
+    passthroughFileCopy: true,
+    dir: {
+      input: "src",
+      output: "public",
+      includes: "_includes",
+    },
   };
+};
