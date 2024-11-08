@@ -13,6 +13,7 @@
     --text-light: #585858;
     --border: #d8dae1;
     --accent: #0d47a1;
+    --container: #ffffff;
   }
   
   /* Dark theme */
@@ -24,6 +25,7 @@
       --text-light: #ababab;
       --border: #666;
       --accent: #ffb300;
+      --container: #ffffff;
     }
   }
   
@@ -100,6 +102,9 @@
   /* Add a little padding to ensure spacing is correct between content and nav */
   main {
     padding-top: 1.5rem;
+    padding: 15px;
+    background: var(--container)
+
   }
   
   body > footer {
@@ -110,7 +115,8 @@
     text-align: center;
     border-top: 1px solid var(--border);
   }
-  
+
+
   /* Format headers */
   
   h1 {
@@ -122,6 +128,7 @@
     margin-top: 3rem;
   }
   
+
   /* Reduce header size on mobile */
   @media only screen and (max-width: 720px) {
     h1 {
