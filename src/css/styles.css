@@ -107,6 +107,10 @@
     background: var(--container)
 
   }
+
+  ul > li::marker {
+    content: "> ";
+  }
   
   body > footer {
     margin-top: 4rem;
