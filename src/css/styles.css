@@ -155,3 +155,11 @@
   a:hover {
     text-decoration: none;
   }
+
+  /* Create centre class */
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
