@@ -89,6 +89,12 @@
   nav a:last-child {
     margin-right: 0;
   }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   
   /* Reduce nav side on mobile */
   @media only screen and (max-width: 750px) {
