@@ -45,7 +45,7 @@
   body {
     color: var(--text);
     background: var(--bg);
-    font-size: 1pt;
+    font-size: 11pt;
     line-height: 1.5;
     margin: 0 auto;
     max-width: 40em;
