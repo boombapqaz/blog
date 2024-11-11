@@ -36,7 +36,7 @@
   
   html {
     /* Set the font globally */
-    font-family: "Monaco", Monospace, sans-serif;
+    font-family: "Monaco", Monospace, serif;
     scroll-behavior: smooth;
   }
   
