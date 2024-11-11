@@ -34,11 +34,10 @@
   * {
     box-sizing: border-box;
   }
-  
+
   html {
-    font-family: "Monaco", monospace, sans-serif;
+    font-family: "Monaco";
   }
-  
   
   /* Make the body a nice central block */
   body {
