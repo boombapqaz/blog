@@ -1,11 +1,11 @@
 /* Global variables. */
 :root {
-    /* Set sans-serif & mono fonts 
-        --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
-      "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica,
-      "Helvetica Neue", sans-serif;
-    --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-    */
+
+  --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
+  "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica,
+  "Helvetica Neue", sans-serif;
+--mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    
   
     /* Default (light) theme */
     --bg: #fff;
@@ -17,7 +17,7 @@
     --container: #ffffff;
   }
   
-  /* Dark theme 
+  
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #212121;
@@ -36,7 +36,9 @@
   }
 
   html {
-    font-family: "Monaco";
+    /* Set the font globally */
+    font-family: var(--sans-font);
+    scroll-behavior: smooth;
   }
   
   /* Make the body a nice central block */
