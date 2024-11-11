@@ -37,7 +37,7 @@
 
   html {
     /* Set the font globally */
-    font-family: Menlo;
+    font-family: Consolas;
     scroll-behavior: smooth;
   }
   
