@@ -37,7 +37,7 @@
 
   html {
     /* Set the font globally */
-    font-family: var(--sans-font);
+    font-family: "Monaco";
     scroll-behavior: smooth;
   }
   
