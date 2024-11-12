@@ -8,7 +8,7 @@
     
   
     /* Default (light) theme */
-    --bg: #000000;
+    --bg: #ffffff;
     --accent-bg: #f5f7ff;
     --text: #333;
     --text-light: #585858;
@@ -75,6 +75,7 @@
     align-items: center;
     width: 100%;
     padding-bottom: 2rem;
+    background: var(--bg);
   }
   
   nav a {
