@@ -52,17 +52,6 @@
     padding: 0 1em;
   }
 
-  #one{
-    font-family: 'Impact';
-    color: red;
-    font-size: 25px;
-}
-#two{
-    font-family: 'Times New Roman';
-    color: blue;
-    font-size: 50px;
-}
-  
   body > header {
     text-align: center;
     padding: 0 0.5rem 2rem 0.5rem;
