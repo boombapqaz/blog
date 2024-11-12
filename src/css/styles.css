@@ -45,12 +45,23 @@
   body {
     color: var(--text);
     background: var(--bg);
-    font-size: 9pt;
+    font-size: 11pt;
     line-height: 1;
     margin: 0 auto;
     max-width: 40em;
     padding: 0 1em;
   }
+
+  #one{
+    font-family: 'Impact';
+    color: red;
+    font-size: 25px;
+}
+#two{
+    font-family: 'Times New Roman';
+    color: blue;
+    font-size: 50px;
+}
   
   body > header {
     text-align: center;
