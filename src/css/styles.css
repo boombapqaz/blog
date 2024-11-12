@@ -46,7 +46,7 @@
     color: var(--text);
     background: var(--bg);
     font-size: 11pt;
-    line-height: 1;
+    line-height: 1.15;
     margin: 0 auto;
     max-width: 40em;
     padding: 0 1em;
