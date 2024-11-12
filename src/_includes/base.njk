@@ -8,18 +8,6 @@
   <link rel="stylesheet" href="/css/normalise.css">
   <link rel="stylesheet" href="/css/stylesheet.css">
 
-  {% set normalise %}
-    {% include "normalise.css" %}
-    {% endset %}
-    <style>
-      {{normalise | cssmin | safe}}
-    </style>
-    {% set css %}
-    {% include "styles.css" %}
-    {% endset %}
-    <style>
-      {{css | cssmin | safe}}
-    </style>
   <title>{{ title }}</title>
 </head>
 
