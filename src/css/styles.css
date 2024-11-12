@@ -124,7 +124,7 @@
     margin-top: 4rem;
     padding: 2rem 1rem 1.5rem 1rem;
     color: var(--text-light);
-    font-size: 11px;
+    font-size: 9px;
     text-align: center;
     border-top: 1px solid var(--border);
   }
@@ -133,7 +133,7 @@
   /* Format headers */
   
   h1 {
-    font-size: 14px;
+    font-size: 2rem;
   }
   
   h2 {
