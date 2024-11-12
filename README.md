@@ -1,5 +1,2 @@
-a shitty website I'm making.
+a shitty neocities page I'm making. generated with 11ty. deployed to https://tamadanick.neocities.org/
 
-TO DO
-<br>Literally all the CSS
-<br>Figure out what the FUCK I'm doing
