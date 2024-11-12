@@ -106,9 +106,11 @@
       text-decoration: underline;
       line-height: 1;
     }
-    img {
+    /*img {
       max-width: 400px;
+      height: auto;
     }
+      */
   }
   
   /* Add a little padding to ensure spacing is correct between content and nav */
