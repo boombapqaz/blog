@@ -39,6 +39,9 @@
     /* Set the font globally */
     font-family: Monaco;
     scroll-behavior: smooth;
+    font-weight: normal;
+    font-style: normal; 
+    text-decoration: none;
   }
   
   /* Make the body a nice central block */
