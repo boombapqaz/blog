@@ -1,6 +1,8 @@
 /* Global variables. */
 :root {
 
+
+  
   --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
   "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica,
   "Helvetica Neue", sans-serif;
@@ -31,13 +33,21 @@
   }
     */
   
+@font-face {
+  font-family: 'Monaco';
+  src: url('/fonts/Monaco.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
   * {
     box-sizing: border-box;
   }
 
   html {
     /* Set the font globally */
-    font-family: Monaco;
+    font-family: 'Monaco' , monospace;
     scroll-behavior: smooth;
     font-weight: normal;
     font-style: normal; 
@@ -203,3 +213,4 @@
   clear: both;
   display: table;
 }
+
