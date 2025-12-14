@@ -1,0 +1,59 @@
+---
+title: psp faq
+date: 2025-12-14
+---
+
+<p><b>How can I tell what model I have?</b></p>
+
+<p>On the bottom of your PSP should be a barcode that ends in PSPxxxx. The basic model is the closest thousand (eg 3002 is a 3000 model). The last number in those 4 digits 
+    is the specific revision, which usually boils down to minor build differences for internal components.</p>
+
+<p><b>Help! I can't connect my PSP to my wifi!</b></p>
+
+<p>
+By modding your PSP it should be compatible with WPA2! But check <a href="https://www.youtube.com/watch?v=IF0E9kyxa1k&t=69s">here</a> to set up your modem.
+</p>
+
+<p><b>How do I convert a CHD file to an iso?</b></p>
+
+<p>Download <a href="https://onionui.github.io/docs/advanced/chdman">CHDMAN</a>, put your CHD files in a folder with it, and create a blank text document. Put this in it.</p>
+
+<pre><code>
+    for %%i in (*.chd) do (
+chdman extractcd -i "%%i" -o "%%~ni.cue" -ob "%%~ni.iso"
+del "%%~ni.cue"
+)
+</code></pre>
+
+<p>Save the text file as a .bat file and double click on it.</p>
+
+<p><b>How do I sort and organise my games?</b></p>
+
+<p>Use <a href="https://www.gamebrew.org/wiki/PspHBSortTool">this</a></p>
+
+<p><b>How do you know which PS1 games are unofficial? Are they okay to play?</b></p>
+
+<p>Ps1 games that were officially released for the psn will give off a grey background with a black text box. Unofficial ones usually have custom art or just the cover art on 
+    a black background. You can play these, but they're not optimised, and any games that need to use L2 or R2 won't have a corresponding set of shoulder buttons on the PSP.</p>
+
+<p><b>I want to go down the path of repairs and mods - what tools do you recommend?</b></p>
+
+<p>A small screwdriver kit that has at least Phillips, flathead and torque (T3 - T5) if possible. A silicon mat with screw holder, and a soldering iron, preferably a station 
+    if you can. Make sure it’s temperature controlled as a bare minimum. I'd recommend using a small conical tip, 1mm or below. Consider also investing into some flux, 
+    desolder braid (or wick), and an autoranging multimeter to test continuity and voltages.</p>
+
+<p><b>Will you do other console modding guides?</b></p>
+
+<p>Very most likely not. I've got into PS2 modding too, but that's a much more open-ended endeavour with many different models, region differences and desired experiences, 
+    and the methods to achieve the same functionality vary wildly based on those factors.</p>
+
+<p><b>What about Nintendo consoles?</b></p>
+
+<p>Please don't talk to me ever. I'd rather kill myself - save uuupah, everyone I know who likes Nintendo enough to mod their consoles is fucking insufferable. I'm not like 
+    the other nerds, I'm a cool nerd. Nintendo is bafflingly overrated.</p>
+
+<br>
+<p>OKAY some of their games absolutely fuck. Zelda is great. I'm yet to play a bad Mario game. The switch has some great indie titles and I mash up dem bloodclat Wii Sports 
+    bowling pins. But the hyperfan culture around Nintendo and the hypocritical justification of predatory practices is fucking insane. No, you probably shouldn't go into 
+    debt to buy a switch 2 on launch. I guess what I mean to say is - Kirby Air Ride will make a man out of you and Yoshi is unquestionably transfemme coded, fuck you. And 
+    mean-spirited theatrics aside I truly love everyone and what makes them happy, but Nintendo just isn't that thing for me. Sorry.</p>
