@@ -64,7 +64,9 @@
     margin: 0 auto;
     max-width: 40em;
     padding: 0 1em;
+    
   }
+
 
   body > header {
     font-family: 'MonacoCustom', Monaco, Consolas, 'Courier New', monospace;
@@ -217,3 +219,6 @@
   display: table;
 }
 
+.special-font p {
+  font-family: 'Times New Roman', serif;
+}

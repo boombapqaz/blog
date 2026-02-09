@@ -347,3 +347,7 @@
   [hidden] {
     display: none;
   }
+
+.special-font p {
+  font-family: 'Times New Roman', serif;
+}
