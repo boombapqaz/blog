@@ -35,11 +35,12 @@
   
 @font-face {
   font-family: 'MonacoCustom';
-  src: url('/fonts/monaco.woff') format('woff');
+  src: url('../fonts/Consolas W99 Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
+\fonts\Consolas W99 Bold.woff
 
   * {
     box-sizing: border-box;
