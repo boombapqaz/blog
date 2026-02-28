@@ -35,7 +35,7 @@
   
 @font-face {
   font-family: 'MonacoCustom';
-  src: url('../fonts/Consolas W99 Regular.woff2') format('woff2');
+  src: url('../fonts/Consolas W99 Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
